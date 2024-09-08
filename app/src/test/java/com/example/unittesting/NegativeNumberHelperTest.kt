@@ -22,7 +22,7 @@ class NegativeNumberHelperTest (private val input: Int, private val expectedValu
         fun data(): List<Array<Any>> {
             return listOf(
                 arrayOf(-1,true),
-                arrayOf(3,false)
+                arrayOf(3,true)
             )
         }
     }
