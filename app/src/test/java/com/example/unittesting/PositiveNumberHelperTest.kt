@@ -17,7 +17,7 @@ class PositiveNumberHelperTest{
 
     @Test
     fun testPositiveNumber(){
-        val result = pnHelper.isNumberPositive(-2)
+        val result = pnHelper.isNumberPositive(2)
         println("Is Positive Number : $result")
         assert(result==false)
     }
